@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            elm3lm-booking
+        </title>
+        <link rel="stylesheet" href="../CSS/Greece.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="landing-container">
+            <div class="landing">
+                <div class="intro-text">
+                    <h1>welcome to your second home greece,enjoy </h1>
+                    <p>καλως ηρθες στην ΕΛΛΑΔΑ</p>
+                </div>
+            </div>
+        </div>
+            <div class="container">
+                <div class="audio">
+                    <button onclick="stopBackgroundSound()">Turn Off Sound</button>
+                    <button onclick="startBackgroundSound()">Turn On Sound</button>
+                </div>
+                <iframe height="640px" width="1090px" src="https://www.youtube.com/embed/po2T3OX5WfE"allowfullscreen></iframe>
+                <audio autoplay loop>
+                    <source src="../MIDEA/🍀_Traditional_Greek_music_Bouzouki_and_Sirtaki_instrumental.mp3">
+                </audio>
+                <section id="attalos">
+                    <div class="atto">
+                   
+                        <div class="Hotels">
+                            <div class="hotel1">
+                                <div class="text">
+                                    <h1>Attalos hotel</h1>
+                                    <p>A very affordable hotel with excellent staff, good location,
+                                        nice top bar and a generous good breakfast.</p>
+                                    <p class="price">2500EGP</p>
+                                    <div class="Butt">
+                                        <button>book now</button>
+                                    </div>
+                                </div>
+                                <div class="img">
+                                    <img src="../IMG/unnamed.jpg" height="355.5px" width="510px">
+                                    <img src="../IMG/189439505.jpg" alt="" height="355.5px" width="510px">
+                                </div>
+                    </div>      
+                </section>
+                    </div>
+                    <section id="ho2">
+                        <div class="atto2">
+                            <div class="hotel2">
+                                <div class="text">
+                                    <h1>Athens Hotel</h1>
+                                    <p>An absolutely beautiful hotel with the most amazing fragrance once you walk into the lobby.
+                                    The location is great, the staff are lovely and the rooftop bar had an amazing views of the Acropolis.</p>
+                                    <P class="price">1930EGP</P>
+                                    <div class="Butt">
+                                    <button>book now</button>
+                                </div>
+                                </div>
+                                <div class="img">
+                                    <img src="../IMG/Athens Capital Hotel Facade 2.jpg" height="355.5px" width="510px">
+                                    <img src="../IMG/herodion-hotel-athens-dining.jpg" alt="" height="355.5px" width="510px">
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                   <section id="ho3">
+                    <div class="atto2">
+                        <div class="hotel3">
+                            <div class="text">
+                                <h1>Apameno Hotel & Suites</h1>
+                                <p >Apanemo is a traditional village style 
+                                complex of independent rooms and Suites with excellent view to the volcano and to the famous Caldera</p>
+                                <P class="price">2600EGP</P>
+                                <div class="Butt">
+                                <button>book now</button>
+                            </div>
+                            </div>
+                            <div class="img">
+                                <img src="../IMG/infinity-pool-overlooking.jpg" height="355.5px" width="510px">
+                                <img src="../IMG/JTR_82847_Apanemo_Hotels_&_Suites_0321_01.jpg" alt="" height="355.5px" width="510px">
+                            </div>
+                        </div>
+                    </div>
+                   </section>
+                   <section id="ho4">
+                    <div class="atto2">
+                        <div class="hotel4">
+                            <div class="text">
+                                <h1>Archipelagos Hotel</h1>
+                                <p>Archipelagos is a modern city hotel in Rethymnon of Crete. Totally renovated in winter 2019 with 4 stars standards. It is built on a hillside area 
+                                    of 3 acres with a panoramic view of the endless blue of the Cretan Sea and the Venetian castle (Fortezza)</p>
+                                <P class="price">1800EGP</P>
+                                <div class="Butt">
+                                    <button>book now</button>
+                                </div>
+                            </div>
+                            <div class="img">
+                                <img src="../IMG/archipelagos-hotel.jpg" height="355.5px" width="510px">
+                                <img src="../IMG/122903.webp" alt="" height="355.5px" width="510px">
+                            </div>
+                        </div>
+                    </div>
+                   </section>
+                   <section id="ho5">
+                    <div class="atto2">
+                        <div class="hotel5">
+                            <div class="text">
+                                <h1>Angsana corfu</h1>
+                                <p>Angsana Corfu Resort & Spa, the first Banyan Tree Hotels & Resorts property in Europe, embodies a unique hospitality philosophy by combining authentic Greek hospitality 
+                                with Asian influences throughout its elegant 196 rooms, suites, and Mediterranean villas with private pool</p>
+                                <P class="price">2550EGP</P>
+                                <div class="Butt">
+                                    <button>book now</button>
+                                </div>
+                            </div>
+                            <div class="img">
+                                <img src="../IMG/infinity-pool.jpg" height="355.5px" width="510px">
+                                <img src="../IMG/angsana-corfu.jpg" alt="" height="355.5px" width="510px">
+                            </div>
+                        </div>
+                    </div>
+                   </section>
+                  
+                </div>
+            </div>
+    <script>
+            function stopBackgroundSound() {
+            var audio = document.querySelector('audio');
+            if (audio) {
+                audio.pause(); 
+                audio.currentTime = 0; 
+            }
+        }
+
+    </script>
+    <script>
+        function startBackgroundSound() {
+    var audio = document.querySelector('audio');
+    if (audio) {
+        audio.play(); 
+    }
+}
+
+    </script>
+    </body>

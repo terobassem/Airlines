@@ -1,0 +1,153 @@
+.landing-container {
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.landing {
+    background-size: cover;
+    height: calc(100vh - 64px);
+    position: relative;
+    min-width: 900px;
+    max-width: 100%;
+  }
+  .landing:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent linear-gradient(90deg, #122D48 0%, rgba(18, 45, 72, 0) 100%) 0% 0% no-repeat padding-box;
+    mix-blend-mode: multiply;
+    opacity: .9;
+}
+
+  .landing .intro-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 320px;
+    max-width: 100%;
+    z-index: 1000;
+  }
+  .landing .intro-text h1 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+    transition: .6s;
+  }
+  .landing .intro-text h1:hover {
+    padding-bottom :30px;
+  }
+  .landing .intro-text p {
+    font-size: 19px;
+    line-height: 1.8;
+    font-weight: 400;
+    color:white;
+  }
+  body{
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; 
+    font-style: normal;
+    margin: 0;
+  }
+.container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    height: 110%;
+    background: rgba(148, 148, 149, 0.356);
+    border-radius: 20px;
+    overflow: hidden;
+    margin: auto;
+}
+a {
+    color: blue;
+    text-align: center;
+    margin-left: 40%;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+a:hover{
+    color: red;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.content .text{
+    color: rgb(250, 248, 248);
+    width: 40%;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+.content .text span{
+    color: rgb(9, 63, 237);
+    font-size: 24px;
+    font-weight: 600;
+    font-style: oblique;
+}
+button {
+    font-size: 20px;
+    width: fit-content;
+    height: fit-content;
+    color: blue;
+}
+button:hover{
+    color: red;
+}
+.content .img{
+    width: 50%;
+}
+.content .img img{
+    width: 600px;
+    background-color: aliceblue;
+}
+.vid{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    height: 110%;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: auto;
+}
+.ss {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 300px; 
+    margin: auto;
+}
+
+.ss form {
+    display: flex;
+    flex-direction: column;
+}
+
+.ss label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.ss input[type="text"] {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px; 
+    padding: 10px; 
+    font-size: 16px;
+}
+body{
+    background-image: url("../IMG/background\ germany.jpeg");
+}

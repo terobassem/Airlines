@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto:ital@1&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+* {
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "Quicksand", sans-serif;
+}
+ul{
+    list-style: none;
+}
+
+a{
+   text-decoration: none; 
+}
+/* container */
+.container{
+   
+    margin: auto;
+    max-width: 1200px;
+    margin: auto;
+}
+.container2{
+    text-align: center;
+    justify-content: center;
+    width: 90%;
+    height: 50%;
+    background: #9d9d9ac1;
+    border-radius: 40px;
+    overflow: hidden;
+    margin: auto;
+}
+ .container2 h2 {
+    text-align: center;
+    font-size: 80px;
+    color: #383848;
+    margin-bottom: 20px;
+}
+.container2 h3{
+    color:rgb(160, 4, 4) ;
+    margin: 15px;
+}
+.container2 .text {
+    justify-content: center;
+    align-items: center;
+}
+.container2 .text p {
+    font-size: 14px;
+    font-weight: 400;
+}
+/* container2 */
+.primary-text{
+color: #5b91f5;
+}
+.btn{
+    display: inline-block;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 15px ;
+}
+
+.btn-primary {
+    color:white ;
+    border: 1px solid rgb(60, 99, 240);
+}
+.btn-secondary {
+    color: #0a0a0a;
+    background: #ffffff;
+    margin: 20px;
+}
+.btn-second{
+    color: #070606;
+    background: #ddab16;
+    margin: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    /* margin-right: 100px; */
+}
+.btn-third{
+    color: #fffefe;
+    background: rgb(160, 4, 4);
+    margin: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.btn-primary:hover,
+.btn-secondary:hover {
+background-color: #5b91f5;
+}
+.btn-second:hover{
+    background-color: #e8a529;
+}
+.btn-third:hover{
+    background-color: rgb(160, 4, 4);
+}
+#bttn .content .a1{
+    display: flex;
+}
+#bttn .content .a1 .i0{
+   margin: 5px;
+}
+#bttn .content .a1 .i1{
+   margin: 5px;
+}
+#bttn .content .a1 .i2{
+   margin: 5px;
+}
+/* header start */
+header{
+    height: 100vh;
+    background: url('../IMG/ICON\ TRAVEL.jpg') center center/cover no-repeat ;
+    position:relative ;
+}
+#navbar{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(95, 95, 99, 0.433);
+}
+
+
+#navbar img {
+    width: 60px; 
+    margin-left: 100px ;
+
+}
+
+#navbar ul {
+    display: flex;
+    margin-right: 100px;
+}
+#navbar ul li a {
+    padding: 15px 20px;
+    color: white;
+    font-weight: 400;
+}
+#navbar ul li a:hover {
+    border-bottom: 2px solid #e4b95b ;
+} 
+header .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    color: rgb(185, 176, 176);
+}
+header .content h1 {
+   font-size: 60px;
+}
+header .content p {
+    margin: 20px 0 40px;
+    color: white;
+}
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100% ;
+    width: 100% ;
+    background: rgb(0, 0, 0, 0.6);
+}
+header * {
+    z-index: 5;
+}
+
+/* header end */
+body{
+    background-image:url(../IMG/marvin-meyer-__e9U9aLZRA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* egypt start */
+
+.egypt .egypt-items .info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1em;
+    max-width: 100%;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 1em;
+}
+#egypt {
+    background: #1a2a4ca1;
+    width: 90%;
+    height: 80%;
+    overflow: hidden;
+    margin: 15px;
+    border-radius: 40px;
+}
+#egypt {
+    margin: 4rem ;
+    text-align: center;
+  padding-bottom: 4rem;
+}
+#egypt{
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+#egypt h2 {
+   
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: white;
+}
+#egypt .title p {
+color: #eae4e4;
+font-weight: 500;
+margin-bottom: 20px;
+}
+#egypt .egypt-items {
+    display:flex;
+
+}
+#egypt .egypt-items img {
+    display: flex;
+    justify-content:left;
+    margin-left: 2rem;
+}
+#egypt .egypt-items h3 {
+    font-size: 20px;
+    color: #fffffe;
+    margin-bottom: 15px;
+    text-align: left;
+    margin-left: 10px;
+}
+#egypt .egypt-items p {
+    display:flex;
+    justify-content: center;
+    text-align: left;
+    color: #eb9b33;
+    margin: auto;
+    font-weight: 500;
+    padding: 20px;
+    line-height: 1.6;
+}
+#egypt .egypt-items .info span {
+     font-size: 20px;  
+     font-weight: 600;
+     color: #5b91f5;
+     margin-left: 15px;
+}
+
+/* egypt end */
+/*  turkish start */
+#turkish {
+    display: flex;
+    justify-content: center;
+    background-color: #383848b1 ;
+    width: 90%;
+    height: 80%;
+    overflow: hidden;
+    margin: auto;
+    border-radius: 40px;
+    text-align: center;
+}
+#turkish {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+#turkish h2 {
+     font-size: 40px;
+     margin: 20px;
+     color:#ec9f2b;
+}
+
+#turkish .title p {
+     color:white;
+     font-weight: 500;
+    margin: 20px;
+}
+#turkish .turkish-items{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #fff;
+} 
+
+#turkish .turkish-items img{
+    width: 400px;
+
+}
+#turkish .turkish-items h3{
+    font-size: 20px;
+    margin: 15px ;
+    color:#ec9f2b
+}
+#turkish .turkish-items p {
+font-size: 14px;
+padding: 0 10px;
+font-weight: 300;
+margin-bottom: 15px;
+line-height: 1.6;
+}
+#turkish .turkish-items span{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 15px;
+}
+#pragraph {
+    width: 100%;
+    max-width: 600px;
+}
+#pragraph1 {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 2rem;
+}
+/* turkish end */
+/* qatar start */
+/* #qatar{
+    display: flex;
+    justify-content: center;
+    background-color: #383848 ;
+    align-items: center;
+} */
+#qatar{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+#qatar .text-items{
+    
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+#qatar h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+    color:rgb(160, 4, 4);
+}
+
+
+#qatar .text p{
+
+    color:rgb(14, 13, 13);
+     font-weight: 500;
+     margin-bottom: 2rem;
+}
+#qatar .qatar-items p {
+    color: black;
+    font-size: 14px;
+    padding: 0 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+#qatar .qatar-items img{
+    width: 300px;
+}
+#qatar .qatar-items span{
+    font-size: 20px;
+    padding-left: 5px;
+    font-weight: 600;
+    color: rgb(2, 86, 5)
+}

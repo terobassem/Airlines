@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(../IMG/jeddah.jpeg) no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    color: #333;
+    font-size: 36px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+.hotel {
+    margin: 20px auto;
+    width: 80%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hotel h2 {
+    margin-top: 0;
+    color: #333;
+    font-size: 24px;
+}
+
+.rating {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.rating .star {
+    font-size: 20px;
+    color: #ffc107;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.images img {
+    width: calc(33.33% - 10px);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.images img:hover {
+    transform: translateY(-5px);
+}
+
+p {
+    text-align: justify;
+    color: #666;
+    line-height: 1.6;
+}
+
+.info {
+    text-align: center;
+    margin-top: 30px;
+    color: #333;
+}
+
+.book-now {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.book-now:hover {
+    background-color: #0056b3;
+}

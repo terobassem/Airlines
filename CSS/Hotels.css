@@ -1,0 +1,109 @@
+:root {
+    --primary-color-dark: #333;
+    --primary-color-light:  #e7e6de;
+    --text-color-dark: #fff;
+    --text-color-light: #333;
+}
+
+body {
+    background-image: url('../IMG/DarkBackground.avif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.icon{
+    cursor: pointer;
+    width: 30px;
+}
+.location .image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.heading {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#icon{
+    height: 30px;
+}
+
+.location {
+    margin: 20px auto;
+    width: 80%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    font-size: 40px;
+}
+
+.location:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.location .video video {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.link {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.link a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.light-mode {
+    background-image: url('../IMG/Lightbackground.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+    color: var(--text-color-light);
+}
+
+.light-mode .navbar {
+    background-color: var(--primary-color-light);
+    color: var(--text-color-light);
+}
+
+.light-mode .nav-links li a {
+    color: var(--text-color-light);
+}
+
+.light-mode .heading {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: var(--text-color-dark);
+}
+
+.light-mode .location {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: var(--text-color-dark);
+}

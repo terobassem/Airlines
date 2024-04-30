@@ -1,0 +1,76 @@
+body {
+    background: url(../IMG/R.jpeg) center fixed ; 
+}
+.container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    height: 80%;
+    background-color: rgba(0, 0, 0, 0.356);
+    border-radius: 20px;
+    overflow: hidden;
+    margin: auto;
+}
+a {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-left: 40%;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+a:hover{
+    color: red;
+}
+i{
+    font-size: 30px;
+    cursor: pointer;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.content .text{
+    color: white;
+    width: 40%;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+.content .text span{
+    color: rgb(31, 218, 215);
+    font-size: 24px;
+    font-weight: 600;
+    font-style: oblique;
+}
+button {
+    font-size: 20px;
+    width: fit-content;
+    height: fit-content;
+    color: blue;
+}
+button:hover{
+    color: red;
+}
+.content .img{
+    width: 50%;
+}
+.content .img img{
+    width: 600px;
+    background-color: aliceblue;
+}
+#hidden {
+    color: rgb(31, 218, 215);
+    font-size: 24px;
+    font-weight: 600;
+    font-style: oblique;
+}
+#demo {
+    color: rgb(255, 255, 255);
+    width: 60%;
+    text-transform: capitalize;
+    font-size: 25px;
+}

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            elm3lm-booking
+        </title>
+        <link rel="stylesheet" href="../CSS/practice.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+        <style>
+            #video-container {
+              display: none;
+              position: relative;
+              top: 10%;
+              left: 50%;
+              transform: translate(-50%, -20%);
+            }
+            
+            #my-video {
+              width: 640px; 
+              height: 360px;
+            
+            }
+          </style>
+    </head>
+
+    <body>
+        <div class="landing-container">
+            <div class="landing">
+                <div class="intro-text">
+                    <h1>willkommen in Deutschland</h1>
+                    <p>Welcome to our hotels,enjoy your stay at germany</p>
+                </div>
+            </div>
+        </div>
+    <br><br>
+
+    <div class="vid">
+        <button id="toggle-btn">Show Video</button>
+        <div id="video-container">
+            <video id="my-video" width="320" height="240" controls>
+                <source src="../MIDEA/Germany - Where Modern and Magic Merge.mp4" type="video/mp4">
+            </video>
+        </div>
+
+    <script>
+        document.getElementById('toggle-btn').addEventListener('click', function() {
+        var videoContainer = document.getElementById('video-container');
+        var video = document.getElementById('my-video');
+  
+        if(videoContainer.style.display === 'none') {
+            videoContainer.style.display = 'block';
+            video.play(); // Autoplay the video if you want
+            this.textContent = 'Hide Video';
+        }else{
+            videoContainer.style.display = 'none';
+            video.pause(); // Pause the video if it's playing
+            this.textContent = 'Show Video';
+        }
+        });
+    </script>
+    </div>
+    <br><br>
+
+    <div class="ss">
+        <form>
+          <label for="fname">CHECK IN</label>
+          <input type="text" id="fname" name="firstname" placeholder="day/month...">
+      
+          <label for="lname">CHECK OUT</label>
+          <input type="text" id="lname" name="lastname" placeholder="day/month...">
+        </form>
+    </div>
+    <br>
+
+    <div class="container">
+        <div class="content">
+            <div class="text">
+                <h1>Villa Viva</h1>
+                <p>
+                    Villa Viva puts you a short five-minute drive from Hamburg City Hall and Miniatur Wunderland. 
+                    You can unwind with a drink at the bar/lounge, and the restaurant is the perfect spot to grab a bite to eat. 
+                    The property is only a short walk to public transportation
+                </p>
+                <ul class="details">
+                    <li>Reserve now, pay later</li>
+                    <li>Free WiFi</li>
+                    <li>Fully refundable</li>
+                    <li>pets allowed</li>
+                    <li>every type of rooms</li>
+                    <li>activities every day</li>
+                </ul>
+                <del>220$</del>
+                <br> <span>100$ only</span>
+                <button onclick="alert('booking submitted')">book now</button>
+            </div>
+            <div class="img">
+                <img src="../IMG/villa viva 1.jpeg" alt="img1">
+                <img src="../IMG/villa viva 2.jpeg" alt="img1">
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <div class="container">
+        <div class="content">
+            <div class="text">
+                <h1>Hilton Berlin</h1>
+                <p>
+                    This centrally located hotel on Berlin's historic Gendarmenmarkt Square features rooms, an exclusive spa and 2 restaurants with stunning views of the German Cathedral.
+                    A beautiful terrace with seating is located directly on the square.
+                </p>
+                <ul class="details">
+                    <li>pay now</li>
+                    <li>Free WiFi</li>
+                    <li>non-refundable</li>
+                    <li>pets allowed</li>
+                    <li>every type of rooms</li>
+                    <li>renting cars</li>
+                </ul>
+                <del>250$</del>
+                <br> <span>120$ only</span>
+                <button onclick="alert('booking submitted')">book now</button>
+            </div>
+            <div class="img">
+                <img src="../IMG/hilton berlin 1.jpeg" alt="img2">
+                <img src="../IMG/hilton berlin 2.jpeg" alt="img2">
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <div class="container">
+        <div class="content">
+            <div class="text">
+                <h1>Falkenstein Grand</h1>
+                <p>
+                    The 5-star hotel Falkenstein Grand, Autograph Collection offers luxurious accommodation with a spectacular view of the breathtaking Frankfurt Skyline.
+                    It is 20 km to Frankfurt city centre.In the heart of Germany, overlooking Frankfurt,
+                    The hotel area with its villa ensemble offers 112 rooms and suites, apartments for longstays and a breathtaking penthouse.
+                </p>
+                <ul class="details">
+                    <li>free wifi</li>
+                    <li>hiking</li>
+                    <li>free parking</li>
+                    <li>pets allowed</li>
+                    <li>fully refundable before a specific time</li>
+                    <li>no payment needed</li>
+                </ul>
+                <del>120$</del>
+                <br> <span>90$ only</span>
+                <button onclick="alert('booking submitted')">book now</button>
+            </div>
+            <div class="img">
+                <img src="../IMG/falkenstein grand 1.jpeg" alt="img3">
+                <img src="../IMG/falkenstein grand 2.jpeg" alt="img3">
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <div class="container">
+        <div class="content">
+            <div class="text">
+                <h1>Kempinski Hotel Frankfurt</h1>
+                <p>
+                    The luxurious 5-star Kempinski Hotel Frankfurt Gravenbruch is a wonderful retreat in the countryside.
+                    The 225 rooms and suites in modern and classic design offer plenty of relaxation and in our luxurious Country Club & Spa you can escape from everyday life and enjoy the tranquillity at any time.
+                </p>
+                <ul class="details">
+                    <li>breakfast included</li>
+                    <li>Valet parking</li>
+                    <li>Free internet</li>
+                    <li>Bicycle rental</li>
+                    <li>Game room</li>
+                    <li>Babysitting</li>
+                </ul>
+                <del>150$</del>
+                <br> <span>100$ only</span>
+                <button onclick="alert('booking submitted')">book now</button>
+            </div>
+            <div class="img">
+                <img src="../IMG/kempinski 1.jpeg" alt="im4">
+                <img src="../IMG/kempinski 2.jpeg" alt="img4">
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <div class="container">
+        <div class="content">
+            <div class="text">
+                <h1>The Westin Grand Munich</h1>
+                <p>
+                    Discover a place in Munich's Arabellapark area where you are given a choice not to just get up, but to rise.
+                    The Westin Grand Hotel Munich inspires you and gives you energy and motivation.
+                    The English Garden, one of the largest inner-city parks in the world is just around the corner
+                    and the city center of Munich can be reached by direct transport connection in only a few subway minutes.
+                    Our rooms and suites, offer space for private or business events
+                </p>
+                <ul class="details">
+                    <li>breakfast included</li>
+                    <li>Valet parking</li>
+                    <li>Free internet</li>
+                    <li>Daily housekeeping</li>
+                    <li>pet freindly</li>
+                    <li>pay now</li>
+                </ul>
+                <del>120$</del>
+                <br> <span>100$ only</span>
+                <button onclick="alert('booking submitted')">book now</button>
+            </div>
+            <div class="img">
+                <img src="../IMG/westin grand 1.jpeg" alt="img5">
+                <img src="../IMG/westin grand 2.jpeg" alt="img5">
+            </div>
+        </div>
+    </div>
+    <br>
+
+</body>
+</html>
